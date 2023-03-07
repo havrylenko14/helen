@@ -41,7 +41,7 @@ li{
 }
 
 .link_unit{
-    display: inline-block;
+    display: flex;
     padding-top: 75px;
     margin-left: 30px;
     margin-right: 30px;
@@ -112,11 +112,11 @@ button{
 }
 @font-face {
 	font-family: 'MyriadPro';
-	src: url('fonts/MyriadPro-Regular.eot');
-	src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/MyriadPro-Regular.woff') format('woff'),
-		url('fonts/MyriadPro-Regular.ttf')  format('truetype'),
-		url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+	src: url('MyriadPro-Regular.eot');
+	src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('MyriadPro-Regular.woff') format('woff'),
+		url('MyriadPro-Regular.ttf')  format('truetype'),
+		url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
